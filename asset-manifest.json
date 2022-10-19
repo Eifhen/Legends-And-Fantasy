@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Legends-And-Fantasy/static/css/main.7e63d39d.css",
-    "main.js": "/Legends-And-Fantasy/static/js/main.d958df3f.js",
+    "main.js": "/Legends-And-Fantasy/static/js/main.cf2c1ecb.js",
     "index.html": "/Legends-And-Fantasy/index.html",
     "main.7e63d39d.css.map": "/Legends-And-Fantasy/static/css/main.7e63d39d.css.map",
-    "main.d958df3f.js.map": "/Legends-And-Fantasy/static/js/main.d958df3f.js.map"
+    "main.cf2c1ecb.js.map": "/Legends-And-Fantasy/static/js/main.cf2c1ecb.js.map"
   },
   "entrypoints": [
     "static/css/main.7e63d39d.css",
-    "static/js/main.d958df3f.js"
+    "static/js/main.cf2c1ecb.js"
   ]
 }
