@@ -1,0 +1,181 @@
+
+/****************************************
+*************** Components ***************
+*****************************************/
+
+.author{
+    display:block;
+    font-size:1.1rem;
+    position: absolute;
+    top:5;
+    color:#654500;
+    text-align: left;
+    text-transform: uppercase;
+    background: var(--yellow);
+    border-radius: 5px;
+    padding:0.7rem;
+    /* text-shadow: 10px 4px 3px #654500; */
+}
+
+.main-title {
+    font-size: 6rem;
+    color: var(--yellow);
+    text-align: center;
+}
+
+.main-title span {
+    color: whitesmoke;
+    font-size:3.5rem;
+}
+
+.title {
+    color: var(--yellow);
+}
+
+.footer {
+    background-color: var(--darker);
+    color:white;
+    text-align: center;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    height:20vh;
+
+}
+
+/****************************************
+*************** Button ***************
+*****************************************/
+
+.btn {
+    display:block;
+    border-radius: 50px;
+    border:none;
+    padding:1rem;
+    min-width: 16rem;
+    text-align: center;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.btn, button {
+    transition:opacity 500ms;
+}
+
+.btn:hover, .btn:focus, button:hover, button:focus {
+    opacity:0.75;
+}
+
+.btn-lg {
+    font-size: 2rem;
+}
+
+.btn-yellow {
+    background-color: var(--yellow);
+    color:var(--dark);
+    /* text-shadow: 0px 0px 3px black; */
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+
+.btn_fight {
+    font-size: 1.8rem;
+    font-family: var(--medieval) !important;
+    border: solid 8px #654500;
+    background-color: var(--yellow);
+    text-transform: uppercase;
+}
+
+.btn:disabled, button:disabled{
+    background-color: var(--gray) ;
+    border: solid 8px var(--gray-light);
+    opacity:0.8;
+    cursor:default;
+}
+
+/****************************************
+*************** Character ***************
+*****************************************/
+
+.character {
+    height: 350px;
+    border-radius: 5px;
+    padding:1rem;
+    box-shadow: var(--shadow);
+    min-width: 17rem;
+    background-color: white;
+}
+
+.character h1 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.character ul {
+    list-style: none;
+    text-align: left;
+
+}
+
+.character img {
+    background: var(--darker);
+    width:  10rem;
+    height: 10rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin:0 auto;
+    display:block; 
+}
+
+.character.character-battle ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.character.character-battle ul li {
+    padding: 0.3rem;
+}
+
+.character.active {
+    border:green solid 10px !important;
+}
+
+.character-info:hover {
+    opacity:0.8;
+}
+
+/****************************************
+*********** Battle System ***************
+*****************************************/
+
+.vs {
+    font-size:10rem;
+    color: var(--yellow);
+    text-shadow: 10px 4px 3px #654500;
+}
+
+
+
+.icon {
+    padding:0;
+    margin-bottom: 0;
+    margin-right: 0.4rem;
+}
+
+.health-bar {
+    display: block;
+    padding: 0.2rem;
+    background-color: green;
+    margin: 0.3rem 0;
+    border-radius:50px;
+
+}
+
+.health-bar.danger{
+    background-color:var(--wine) !important;
+}
+
+.health-bar-container{
+    display: inline-block;
+    width:90%;
+}
